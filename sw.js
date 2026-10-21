@@ -1,5 +1,5 @@
 // Offline support: app files are cached; network first so updates arrive quickly.
-const CACHE = 'espanol-v2';
+const CACHE = 'espanol-v3';
 const FILES = [
   './', 'index.html', 'styles.css', 'config.js', 'manifest.webmanifest', 'icon.svg',
   'content/leccion-2.js',

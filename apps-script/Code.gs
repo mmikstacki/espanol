@@ -1,6 +1,9 @@
 // Español App – dziennik postępów w Arkuszu Google.
 // Wklej ten plik w Rozszerzenia → Apps Script arkusza. Instrukcja: INSTRUKCJA.md.
 
+// Dostęp tylko do tego jednego arkusza, nie do wszystkich arkuszy na koncie:
+/** @OnlyCurrentDoc */
+
 const LOG_SHEET = 'Dziennik';
 const SUMMARY_SHEET = 'Podsumowanie';
 const HEADERS = ['Data', 'Imię', 'Krok ID', 'Krok', 'Rodzaj', 'Wynik %', 'Zaliczony', 'Błędy', 'Czas (s)'];
