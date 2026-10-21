@@ -23,6 +23,7 @@ function setup() {
   summary.getRange('A2').setFormula(
     "=IFERROR(QUERY(Dziennik!A:I, \"select B, D, max(F), count(F), max(A) where E = 'sprawdzian' group by B, D " +
     "label B 'Imię', D 'Krok', max(F) 'Najlepszy %', count(F) 'Podejścia', max(A) 'Ostatnio'\", 1), \"Brak sprawdzianów\")");
+  summary.getRange('E:E').setNumberFormat('yyyy-mm-dd hh:mm'); // QUERY zwraca datę jako liczbę
   summary.getRange('H1').setValue('Ostatnia nauka').setFontWeight('bold');
   summary.getRange('H2').setFormula('=IFERROR(MAX(Dziennik!A2:A), "-")');
   summary.getRange('H2').setNumberFormat('yyyy-mm-dd hh:mm');
