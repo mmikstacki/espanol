@@ -1,0 +1,11 @@
+{
+  "name": "espanol-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Aplikacja do nauki hiszpańskiego – Lección 2 „¿Qué me pongo hoy?”",
+  "scripts": {
+    "test": "node --test \"tests/*.test.mjs\"",
+    "serve": "node serve.mjs"
+  }
+}

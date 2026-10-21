@@ -1,0 +1,14 @@
+{
+  "name": "Español – Lekcja 2",
+  "short_name": "Español",
+  "description": "Nauka hiszpańskiego krok po kroku: ¿Qué me pongo hoy?",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#c8102e",
+  "lang": "pl",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
